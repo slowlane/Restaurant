@@ -1,0 +1,2 @@
+# Restaurant
+OdinProject JavaScript project
