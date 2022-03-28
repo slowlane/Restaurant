@@ -6,7 +6,6 @@ export function homeContent(){
     const homeDiv = document.createElement("div");
     
 
-    const homeHeaderDiv = document.createElement("div");
     const homeHeader = document.createElement("h1");
     homeHeader.innerHTML = "Welcome to THE Restaurant!";
 
@@ -20,18 +19,16 @@ export function homeContent(){
 
     //Add some classes for easier styling
     homeDiv.classList.add("home-div");
-    homeHeaderDiv.classList.add("home-inner-div");
     descParaDiv.classList.add("home-inner-div");
     infoParaDiv.classList.add("home-inner-div");
 
     // Append children
     content.appendChild(homeDiv);
 
-    homeDiv.appendChild(homeHeaderDiv);
+    homeDiv.appendChild(homeHeader);
     homeDiv.appendChild(descParaDiv);
     homeDiv.appendChild(infoParaDiv);
 
-    homeHeaderDiv.appendChild(homeHeader);
     descParaDiv.appendChild(descPara);
     infoParaDiv.appendChild(infoPara);
     
@@ -43,4 +40,4 @@ export function homeContent(){
 
 
 
-}
+};

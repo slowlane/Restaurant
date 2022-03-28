@@ -1,5 +1,3 @@
-import Icon from './icon.png';
-
 export function addNavContent(){
     
     const content = document.getElementById("content");

@@ -40,3 +40,40 @@ body {
     font-size: 3rem;
     
 }
+
+/* CONTENTS OF HOME JS BELOW */
+
+.home-div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 960px;
+    height: 85vh;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    border-radius: 6px;
+
+    background-color: rgba(44, 40, 24, 0.979);
+}
+
+.home-div h1 {
+    color: white;
+}
+
+.home-inner-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 20px;
+    border-radius: 6px;
+
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 208, 0);
+}
