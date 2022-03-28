@@ -1,11 +1,9 @@
-
 export function homeContent(){
 
     const content = document.getElementById("content");
 
     const homeDiv = document.createElement("div");
     
-
     const homeHeader = document.createElement("h1");
     homeHeader.innerHTML = "Welcome to THE Restaurant!";
 
@@ -18,7 +16,8 @@ export function homeContent(){
     infoPara.innerHTML = "There's info here. Good info! Such as location, times.. general info";
 
     //Add some classes for easier styling
-    homeDiv.classList.add("home-div");
+    homeDiv.classList.add("content-div");
+    homeDiv.id = "homeDiv";
     descParaDiv.classList.add("home-inner-div");
     infoParaDiv.classList.add("home-inner-div");
 
@@ -32,12 +31,5 @@ export function homeContent(){
     descParaDiv.appendChild(descPara);
     infoParaDiv.appendChild(infoPara);
     
-
-
-
-
-
-
-
 
 };

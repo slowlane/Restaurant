@@ -3,7 +3,6 @@ export function addNavContent(){
     const content = document.getElementById("content");
 
     const navDiv = document.createElement("div");
-    navDiv.classList.add("nav-div");
 
     const navList = document.createElement("ul");
     
@@ -22,4 +21,9 @@ export function addNavContent(){
     navList.appendChild(navLi1);
     navList.appendChild(navLi2);
     navList.appendChild(navLi3);
+
+    navDiv.classList.add("nav-div");
+    navLi1.classList.add("nav-li");
+    navLi2.classList.add("nav-li");
+    navLi3.classList.add("nav-li");
 };
