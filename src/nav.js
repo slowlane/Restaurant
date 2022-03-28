@@ -3,22 +3,25 @@ import Icon from './icon.png';
 export function addNavContent(){
     
     const content = document.getElementById("content");
-    console.log(content);
 
-    const header1 = document.createElement("h1");
-    header1.innerHTML = "The Greatest Restaurant!";
+    const navDiv = document.createElement("div");
+    navDiv.classList.add("nav-div");
+
+    const navList = document.createElement("ul");
     
-    const myIcon = new Image();
-    myIcon.src = Icon;
+    const navLi1 = document.createElement("li");
+    const navLi2 = document.createElement("li");
+    const navLi3 = document.createElement("li");
 
-    const paragraph = document.createElement("p");
-    paragraph.innerHTML = "The greatest restaurant you've ever witnessed. For sure."
+    navLi1.innerHTML = "Home";
+    navLi2.innerHTML = "Menu";
+    navLi3.innerHTML = "Contact";
+
+    content.appendChild(navDiv);
     
-    content.appendChild(myIcon);
-    content.appendChild(header1);
-    content.appendChild(paragraph);
-
-
-
+    navDiv.appendChild(navList);
     
+    navList.appendChild(navLi1);
+    navList.appendChild(navLi2);
+    navList.appendChild(navLi3);
 };
