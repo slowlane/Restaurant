@@ -16,7 +16,7 @@ export function menuContent(){
     infoPara.innerHTML = "There's info here. Good info! Such as location, times.. general info";
 
     //Add some classes for easier styling
-    menuDiv.classList.add("content-div", "hidden");
+    menuDiv.classList.add("content-div");
     menuDiv.id = "menuDiv";
     descParaDiv.classList.add("home-inner-div");
     infoParaDiv.classList.add("home-inner-div");

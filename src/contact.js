@@ -16,7 +16,7 @@ export function contactContent(){
     infoPara.innerHTML = "There's info here. Good info! Such as location, times.. general info";
 
     //Add some classes for easier styling
-    contactDiv.classList.add("content-div", "hidden");
+    contactDiv.classList.add("content-div");
     contactDiv.id = "contactDiv";
     descParaDiv.classList.add("home-inner-div");
     infoParaDiv.classList.add("home-inner-div");
