@@ -23,7 +23,7 @@ export function addNavContent(){
     navList.appendChild(navLi3);
 
     navDiv.classList.add("nav-div");
-    navLi1.classList.add("nav-li");
+    navLi1.classList.add("nav-li", "active-nav");
     navLi2.classList.add("nav-li");
     navLi3.classList.add("nav-li");
 };

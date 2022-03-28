@@ -12,10 +12,13 @@ export const buttonFunctionality = (function(){
     }
     
     function pageChange(event){
+        const menuText = event.target.innerHTML;
+        
         removeHTML();
+        setNavActive(menuText)
         
         //Populate HTML
-        switch(event.target.innerHTML){
+        switch(menuText){
             case "Home":
                 homeContent();
                 break;
@@ -38,6 +41,17 @@ export const buttonFunctionality = (function(){
         homeDiv?.remove();
         menuDiv?.remove();
         contactDiv?.remove();
+    }
+
+    function setNavActive(string){
+        for(let li of navBarList){
+            li.classList.remove("active-nav");
+        }
+        for(let li of navBarList){
+            if(li.innerText === string){
+                li.classList.toggle("active-nav");
+            }
+        }
     }
 });
 

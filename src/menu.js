@@ -9,7 +9,7 @@ export function menuContent(){
 
     const descParaDiv = document.createElement("div");
     const descPara = document.createElement("p");
-    descPara.innerHTML = "A brand new restaurant coming near you! Don't miss out on an experience you could not possibly get anywhere else";
+    descPara.innerHTML = "If this were an actual restaurant there might have been some menu items here and different foods here.";
 
     const infoParaDiv = document.createElement("div");
     const infoPara = document.createElement("p");

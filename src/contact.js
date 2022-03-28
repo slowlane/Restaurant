@@ -9,11 +9,11 @@ export function contactContent(){
 
     const descParaDiv = document.createElement("div");
     const descPara = document.createElement("p");
-    descPara.innerHTML = "A brand new restaurant coming near you! Don't miss out on an experience you could not possibly get anywhere else";
+    descPara.innerHTML = "Contact us at.. who knows. Maybe don't contact us.";
 
     const infoParaDiv = document.createElement("div");
     const infoPara = document.createElement("p");
-    infoPara.innerHTML = "There's info here. Good info! Such as location, times.. general info";
+    infoPara.innerHTML = "There's info here. Good info! Such as location, times.. general info, possibly some e-mails and phone-numbers!";
 
     //Add some classes for easier styling
     contactDiv.classList.add("content-div");
